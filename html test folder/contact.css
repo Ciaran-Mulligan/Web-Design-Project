@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+head {
+
+}
+
+body {
+    background: black;
+}
+
+header > h2 {
+    text-align: center;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+.dot {
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icons {
+    text-align: center;
+    background: dot;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+}
+
+footer > aside {
+    color: white;
+    text-align: right;
+}
